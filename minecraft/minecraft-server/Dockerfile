@@ -5,7 +5,7 @@
 # ----------------------------------
 FROM openjdk:21-ea-slim
 
-MAINTAINER Pterodactyl Software, <support@pterodactyl.io>
+MAINTAINER Vortexs
 
 RUN apt-get update && apt-get install -y curl wget ca-certificates openssl git tar bash sqlite3 fontconfig && rm -rf /var/lib/apt/lists/*
 
