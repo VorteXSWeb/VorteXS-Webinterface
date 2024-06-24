@@ -1,8 +1,3 @@
-# ----------------------------------
-# Pterodactyl Core Dockerfile
-# Environment: Java
-# Minimum Panel Version: 0.6.0
-# ----------------------------------
 FROM openjdk:21-ea-slim
 
 MAINTAINER Vortexs
