@@ -26,7 +26,7 @@ RUN mkdir -p /var/vortexs/container
 WORKDIR /var/vortexs/container
 
 # Download the latest version of the FiveM server
-RUN wget https://northrp.de/uploads/docker/fx.tar.gz
+RUN wget https://vortexs.de/uploads/docker/fx.tar.gz
 
 # Extract the FiveM server
 RUN tar -xf fx.tar.gz && rm fx.tar.gz
